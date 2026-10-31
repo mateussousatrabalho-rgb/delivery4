@@ -1,0 +1,11 @@
+{
+  "name": "Remix Vitim Cozinha e Bar - Cardápio Online",
+  "description": "Sistema completo de pedidos online do restaurante Vitim Cozinha e Bar no Jardim do Ingá (Luziânia-GO) com cardápio digital, painel administrativo em tempo real e impressão térmica Epson USB.",
+  "requestFramePermissions": [
+    "serial",
+    "usb"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

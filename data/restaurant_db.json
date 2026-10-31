@@ -1,0 +1,281 @@
+{
+  "settings": {
+    "restaurantName": "Vitim Cozinha e Bar",
+    "neighborhood": "Jardim do Ingá",
+    "cityState": "Luziânia - GO",
+    "fullAddress": "Avenida Lucena Roriz, Qd. 65, Lt. 23, Jardim do Ingá, Luziânia-GO",
+    "whatsappNumber": "5561999636183",
+    "logoUrl": "/assets/aistudio/IMG_0848-Photoroom_78eae265.png",
+    "printLogoUrl": "/assets/aistudio/IMG_0848-Photoroomm_42d628da.png",
+    "bannerUrl": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=1200&auto=format&fit=crop&q=80",
+    "openingHours": "Diariamente das 11:45 às 23:30",
+    "isOpen": false,
+    "autoScheduleEnabled": true,
+    "openTime": "11:45",
+    "closeTime": "23:30",
+    "paperWidth": 80,
+    "printerName": "EPSON TM-T20X",
+    "autoPrintOnNewOrder": true,
+    "soundAlertEnabled": true,
+    "adminPasswordHash": "vitim2026",
+    "serviceToken": "sec-inga-print-token-2026"
+  },
+  "categories": [
+    {
+      "id": "cat-1",
+      "name": "Porções",
+      "slug": "porcoes",
+      "order": 1
+    },
+    {
+      "id": "cat-2",
+      "name": "Petiscos",
+      "slug": "petiscos",
+      "order": 2
+    },
+    {
+      "id": "cat-3",
+      "name": "Hambúrgueres",
+      "slug": "hamburgueres",
+      "order": 3
+    },
+    {
+      "id": "cat-4",
+      "name": "Trio de hambúrgueres",
+      "slug": "trio-de-hamburgueres",
+      "order": 4
+    },
+    {
+      "id": "cat-5",
+      "name": "Caldos",
+      "slug": "caldos",
+      "order": 5
+    },
+    {
+      "id": "cat-6",
+      "name": "Molhos",
+      "slug": "molhos",
+      "order": 6
+    },
+    {
+      "id": "cat-7",
+      "name": "Bebidas não alcoólicas",
+      "slug": "bebidas-nao-alcoolicas",
+      "order": 7
+    },
+    {
+      "id": "cat-8",
+      "name": "Bebidas alcoólicas",
+      "slug": "bebidas-alcoolicas",
+      "order": 8
+    }
+  ],
+  "products": [
+    {
+      "id": "prod-1",
+      "categoryId": "cat-1",
+      "name": "Batata Rústica Especial com Bacon & Cheddar",
+      "description": "Batatas crocantes cortadas artesanalmente, cobertas com blend de queijo cheddar cremoso e cubos crocantes de bacon.",
+      "price": 36.9,
+      "imageUrl": "https://images.unsplash.com/photo-1573080496219-bb080dd4f877?w=600&auto=format&fit=crop&q=80",
+      "available": true
+    },
+    {
+      "id": "prod-2",
+      "categoryId": "cat-1",
+      "name": "Isca de Frango Empanada Crocante (500g)",
+      "description": "Tiras de peito de frango marinadas no tempero do chefe, empanadas na farinha panko. Acompanha molho da casa.",
+      "price": 42,
+      "imageUrl": "https://images.unsplash.com/photo-1562967914-608f82629710?w=600&auto=format&fit=crop&q=80",
+      "available": true
+    },
+    {
+      "id": "prod-3",
+      "categoryId": "cat-1",
+      "name": "Carne de Sol com Mandioca na Manteiga de Garrafa",
+      "description": "Clássico goiano: carne de sol desfiada e salteada com cebola roxa e macaxeira cozida no ponto certo com manteiga de garrafa.",
+      "price": 54.9,
+      "imageUrl": "https://images.unsplash.com/photo-1544025162-d76694265947?w=600&auto=format&fit=crop&q=80",
+      "available": true
+    },
+    {
+      "id": "prod-4",
+      "categoryId": "cat-2",
+      "name": "Bolinho de Costela Desfiada (6 unidades)",
+      "description": "Costela bovina assada por 8 horas, desfiada com especiarias e empanada crocante. Recheio super suculento.",
+      "price": 32,
+      "imageUrl": "https://images.unsplash.com/photo-1541544741938-0af808871cc0?w=600&auto=format&fit=crop&q=80",
+      "available": true
+    },
+    {
+      "id": "prod-5",
+      "categoryId": "cat-2",
+      "name": "Dadinhos de Tapioca com Queijo Coalho",
+      "description": "Cubos dourados de tapioca granulada e queijo coalho tostado. Acompanha geleia artesanal de pimenta agridoce.",
+      "price": 28.5,
+      "imageUrl": "https://images.unsplash.com/photo-1541529086526-db283c563270?w=600&auto=format&fit=crop&q=80",
+      "available": true
+    },
+    {
+      "id": "prod-6",
+      "categoryId": "cat-3",
+      "name": "Burger Ingá Monster Smash (160g)",
+      "description": "Dois smash burgers de 80g cada, queijo cheddar derretido, bacon fatiado, cebola caramelizada e maionese defumada no pão brioche amanteigado.",
+      "price": 32.9,
+      "imageUrl": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=600&auto=format&fit=crop&q=80",
+      "available": true
+    },
+    {
+      "id": "prod-7",
+      "categoryId": "cat-3",
+      "name": "Burger Caipira Gourmet (180g)",
+      "description": "Blend bovino 180g grelhado na brasa, queijo minas padrão tostado, ovo caipira estalado, alface americana e molho especial de ervas.",
+      "price": 35,
+      "imageUrl": "https://images.unsplash.com/photo-1586190848861-99aa4a171e90?w=600&auto=format&fit=crop&q=80",
+      "available": true
+    },
+    {
+      "id": "prod-8",
+      "categoryId": "cat-4",
+      "name": "Trio Degustação de Mini Burgers Artesanais",
+      "description": "Combo com 3 mini hambúrgueres especiais: 1 Clássico Cheddar & Bacon, 1 Gorgonzola com Geleia, e 1 Costela Barbecue. Acompanha porção de fritas.",
+      "price": 49.9,
+      "imageUrl": "https://images.unsplash.com/photo-1550547660-d9450f859349?w=600&auto=format&fit=crop&q=80",
+      "available": true
+    },
+    {
+      "id": "prod-9",
+      "categoryId": "cat-5",
+      "name": "Caldo de Feijão Especial com Bacon e Couve (500ml)",
+      "description": "Feijão preto bem temperado com alho, folhas de louro, cubinhos de bacon frito, linguiça calabresa e couve fininha.",
+      "price": 22,
+      "imageUrl": "https://images.unsplash.com/photo-1547592166-23ac45744acd?w=600&auto=format&fit=crop&q=80",
+      "available": true
+    },
+    {
+      "id": "prod-10",
+      "categoryId": "cat-5",
+      "name": "Caldo de Panga com Mandioca e Carne Seca (500ml)",
+      "description": "Receita tradicional: creme aveludado de mandioca fresca cozida com carne seca desfiada e cheiro-verde fresco.",
+      "price": 24.5,
+      "imageUrl": "https://images.unsplash.com/photo-1603105037880-880cd4edfb0d?w=600&auto=format&fit=crop&q=80",
+      "available": true
+    },
+    {
+      "id": "prod-11",
+      "categoryId": "cat-6",
+      "name": "Maionese Especial Verde da Casa (100ml)",
+      "description": "Nossa famosa maionese verde temperada com ervas finas, alho assado e azeite extravirgem.",
+      "price": 5,
+      "imageUrl": "https://images.unsplash.com/photo-1528751014936-863e6e7a319c?w=600&auto=format&fit=crop&q=80",
+      "available": true
+    },
+    {
+      "id": "prod-12",
+      "categoryId": "cat-6",
+      "name": "Molho Barbecue Defumado com Rapadura (100ml)",
+      "description": "Molho barbecue rústico com notas defumadas e toque suave de rapadura artesanal.",
+      "price": 6,
+      "imageUrl": "https://images.unsplash.com/photo-1472476443507-c7a5948772fc?w=600&auto=format&fit=crop&q=80",
+      "available": true
+    },
+    {
+      "id": "prod-13",
+      "categoryId": "cat-7",
+      "name": "Coca-Cola Original 350ml Lata",
+      "description": "Refrigerante Coca-Cola em lata gelada trincando.",
+      "price": 6.5,
+      "imageUrl": "https://images.unsplash.com/photo-1622483767028-3f66f32aef97?w=600&auto=format&fit=crop&q=80",
+      "available": true
+    },
+    {
+      "id": "prod-14",
+      "categoryId": "cat-7",
+      "name": "Suco Natural de Laranja da Fruta (500ml)",
+      "description": "Suco feito na hora com laranjas selecionadas, 100% puro e sem adição de água.",
+      "price": 11,
+      "imageUrl": "https://images.unsplash.com/photo-1613478223719-2ab802602423?w=600&auto=format&fit=crop&q=80",
+      "available": true
+    },
+    {
+      "id": "prod-15",
+      "categoryId": "cat-8",
+      "name": "Cerveja Heineken Long Neck 330ml",
+      "description": "Cerveja puro malte Premium geladíssima.",
+      "price": 11.9,
+      "imageUrl": "https://images.unsplash.com/photo-1608270119330-8041a9952528?w=600&auto=format&fit=crop&q=80",
+      "available": true
+    },
+    {
+      "id": "prod-16",
+      "categoryId": "cat-8",
+      "name": "Chopp Pilsen Artesanal Gelado (500ml)",
+      "description": "Chopp claro e refrescante, tirado no ponto perfeito com colarinho cremoso.",
+      "price": 14,
+      "imageUrl": "https://images.unsplash.com/photo-1535958636474-b021ee887b13?w=600&auto=format&fit=crop&q=80",
+      "available": true
+    }
+  ],
+  "orders": [
+    {
+      "id": "ord-1793400417488-3b6bf4",
+      "orderNumber": 1,
+      "formattedNumber": "0001",
+      "clientName": "Mateus Oliveira",
+      "clientPhone": "(61) 99123-4567",
+      "modality": "ENTREGA",
+      "address": {
+        "street": "Rua 15",
+        "number": "45",
+        "neighborhood": "Jardim do Ingá",
+        "complement": "",
+        "reference": "Perto do mercado",
+        "formatted": "Rua 15, Nº 45 - Bairro Jardim do Ingá - Ref: Perto do mercado"
+      },
+      "items": [
+        {
+          "productId": "prod-1",
+          "name": "Batata Rústica Especial com Bacon & Cheddar",
+          "price": 36.9,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 36.9,
+      "deliveryFee": 7.5,
+      "deliveryFeeStatus": "CONFIRMADA",
+      "total": 44.4,
+      "status": "RECEBIDO",
+      "createdAt": "2026-10-30T22:46:57.488Z",
+      "updatedAt": "2026-10-30T22:47:25.471Z",
+      "statusHistory": [
+        {
+          "status": "RECEBIDO",
+          "timestamp": "2026-10-30T22:46:57.488Z",
+          "note": "Pedido criado pelo cliente via Cardápio Online"
+        },
+        {
+          "status": "RECEBIDO",
+          "timestamp": "2026-10-30T22:47:25.471Z",
+          "note": "Taxa de entrega confirmada: R$ 7.50"
+        }
+      ],
+      "printCount": 0
+    }
+  ],
+  "printQueue": [
+    {
+      "id": "print-1793400417495-68a2",
+      "orderId": "ord-1793400417488-3b6bf4",
+      "orderNumber": 1,
+      "formattedNumber": "0001",
+      "receiptText": "VITIM COZINHA E BAR\nPEDIDO Nº 0001\n------------------------------------------------\nCLIENTE: MATEUS OLIVEIRA\nWHATSAPP: (61) 99123-4567\nTIPO: ENTREGA\nENDEREÇO:\nRua 15, Nº 45\nBAIRRO: Jardim do Ingá\nREF: Perto do mercado\nDATA: 30/10/2026\nHORÁRIO: 22:46\n------------------------------------------------\nPRODUTOS:\n\n1x BATATA RÚSTICA ESPECIAL COM BACON & CHEDDAR — R$ 36,90\n------------------------------------------------\nSUBTOTAL: R$ 36,90\nTAXA DE ENTREGA: A CONFIRMAR\nTOTAL FINAL: A CONFIRMAR\n------------------------------------------------\nPEDIDO RECEBIDO",
+      "isSecondCopy": false,
+      "status": "PENDING",
+      "attempts": 0,
+      "maxAttempts": 5,
+      "createdAt": "2026-10-30T22:46:57.488Z"
+    }
+  ],
+  "printHistory": [],
+  "nextOrderSequence": 2
+}
